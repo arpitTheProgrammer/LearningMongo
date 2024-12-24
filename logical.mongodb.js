@@ -1,0 +1,1 @@
+db.newStudents.find({$and: [{course: "BTech"},{age: {gt: 19}}]})
