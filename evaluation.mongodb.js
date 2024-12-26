@@ -1,4 +1,4 @@
-// $regex
+// $regex :- regular expression
 
 // Pattern
 // {field: {$regex: /pattern/ <option>}}  "^S" start with "S" digits or "an$" and with an digits
