@@ -9,3 +9,4 @@ db.newStudents.find({name: {$regex: "^S"}})
 
 //mod expression
 db.newStudents.find({age: {$mod: [2,0]}})
+

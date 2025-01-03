@@ -43,7 +43,7 @@ db.newStudents.aggregate([
           as: "Book"
         }
     },
-    {
+    { 
         $replaceRoot: {
             newRoot: {
                 $mergeObjects: [{
